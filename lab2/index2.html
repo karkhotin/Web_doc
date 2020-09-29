@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>Звіт</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <header>
+  </header>
+  <div class="parent">
+	<div class="child"> <h1> Звіти з дисципліни <br>
+       "Розроблення web-застосуваннь"</h1> </div>
+	<div class="child">  <h1> Студенти групи ІА-94</h1>
+  <h3>Хотінь Карина та Редчиць Анжеліка</h3></div>
+</div>
+  <div id="heading">
+  <nav>
+	<ul class="top-menu">
+		<li><a href="../index.html">Лабораторна №1</a></li>
+		<li class="active">Лабораторна №2</li>
+		<li><a href="../index.html">Лабораторна №3</a></li>
+		<li><a href="/partners/">Лабораторна №4</a></li>
+		<li><a href="/customers/">Лабораторна №5</a></li>
+		<li><a href="/projects/">Лабораторна №6</a></li>
+		<li><a href="/careers/">Лабораторна №7</a></li>
+		<li><a href="/contact/">Лабораторна №8</a></li>
+		<li><a href="/contact/">Лабораторна №9</a></li>
+	</ul>
+  </nav>
+  </div>
+<aside>
+<nav>
+	<ul class="aside-menu">
+		<li class="#t1">Постановка задачі <br> лабораторної роботи №2</li>
+		<li><a href="#t2">Списки</a></li>
+		<li><a href="#t3">Ідентифікатори</a></li>
+		<li><a href="#t4">Відступи</a></li>
+		<li><a href="#t5">Плаваючі елементи</a></li>
+		<button onclick="myFunction()" class="dropbtn">Cелектори</button>
+		<div id="myDropdown" class="dropdown-content">
+			<a href="#sel">Селектори тегу і класу</a>
+			<a href="#othSel">Інші селектори</a>
+			<a href="#Gsel">Групування селекторів</a>
+		</div>
+	</ul>
+</nav>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</aside>
+</div>
+<section>
+	<div id ="t1">
+		<h1>Постановка задачі  лабораторної роботи №1 </h1>
+		<font size ="4">Придбати практичні навички роботи з селекторами, ідентифікаторами, списками, різноманітними властивостями кольору і фону, зовнішними та внутрішними  відступами, плаваючими елементами, оформленням текстових елементів. </font><br>
+		<br>
+	</div>
+	<div id ="t2">
+	<h1>Списки</h1>
+	<img src ="l_img.png" width ="640" > 
+	<img src ="res_l.png" width ="340" height = "380"> 
+	</div>
+	<br>
+	<div id ="t3">
+	<h1>Iдентифікатори</h1>
+	<img src ="l_img.png" width ="640" > 
+	<img src ="i_img.png" width ="640"> 
+	</div>
+	<div id ="t4">
+	<h1>Відступи</h1>
+	<img src ="v_img.png" width ="460" > 
+	<img src ="res_v.png" width ="460"> 
+	</div>
+	<div id ="t5">
+	<h1>Плаваючі елементи</h1>
+	<img src ="f.png" width ="540" > 
+	<img src ="r_f.png" width ="540"> 
+	</div>
+	<div id ="sel">
+	<h1>Селектори тегу і класу</h1>
+	<img src ="tag_img.png" width ="470"> 
+	<img src ="res_tag.png" width ="470"> 
+	</div>
+	<div id ="othSel">
+	<h1>Інші селектори</h1>
+	<img src ="oth_img.png" width ="540" > 
+	<img src ="res_oth.png" width ="540"> 
+	</div>
+	<div id ="Gsel">
+	<h1>Групування селекторів</h1>
+	<img src ="g.png" width ="340" > 
+	<img src ="v.png" width ="580"> 
+	</div>
+</section>
+</body>
+</html>
+
+
