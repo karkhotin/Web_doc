@@ -130,10 +130,14 @@ section {
 	padding-bottom: 50px;
 	max-width: 1050px;
 }
+.aside-menu{
+	position: fixed;
+}
 .aside-menu li {
 	font-weight: 300;
 	list-style-type: square;
 	border-top: 1px solid #e7e7e7;
+	
 }
 
 .aside-menu li:first-child {

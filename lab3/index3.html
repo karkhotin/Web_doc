@@ -19,30 +19,28 @@
   <div id="heading">
   <nav>
 	<ul class="top-menu">
-		<li class="active">Лабораторна №1</li>
-		<li><a href="lab2/index2.html">Лабораторна №2</a></li>
-		<li><a href="/services/">Лабораторна №3</a></li>
-		<li><a href="/partners/">Лабораторна №4</a></li>
-		<li><a href="/customers/">Лабораторна №5</a></li>
-		<li><a href="/projects/">Лабораторна №6</a></li>
-		<li><a href="/careers/">Лабораторна №7</a></li>
-		<li><a href="/contact/">Лабораторна №8</a></li>
-		<li><a href="/contact/">Лабораторна №9</a></li>
+		<li> <a href="../index.html">Лабораторна №1</a></li>
+		<li><a href="C:\Users\Karine\Documents\Web_doc\lab2\index2.html">Лабораторна №2</a></li>
+		<li><a href="lab3/index3.html">Лабораторна №3</a></li>
+		<li><a href="C:\Users\Karine\Documents\Web_doc\lab4\index4.html">Лабораторна №4</a></li>
+		<li><a href="C:\Users\Karine\Documents\Web_doc\lab5\index5.html">Лабораторна №5</a></li>
+		<li><a href="C:\Users\Karine\Documents\Web_doc\lab6\index6.html">Лабораторна №6</a></li>
+		<li><a href="C:\Users\Karine\Documents\Web_doc\lab7\index7.html">Лабораторна №7</a></li>
+		<li><a href="C:\Users\Karine\Documents\Web_doc\lab8\index8.html">Лабораторна №8</a></li>
+		<li><a href="C:\Users\Karine\Documents\Web_doc\lab9\index9.html">Лабораторна №9</a></li>
 	</ul>
   </nav>
   </div>
 <aside>
 <nav>
 	<ul class="aside-menu">
-		<li class="#t1">Опис предметного середовища</li>
-		<li><a href="#t2">Загальна постановка  задачі програми </a></li>
-		<li><a href="#t3">Постановка задачі <br> лабораторної роботи №1</a></li>
-		<button onclick="myFunction()" class="dropbtn">Cтруктура документа</button>
+		<li> <a href="#t1">Постановка задачі <br> лабораторної роботи №3</a></li>
+		<li><a href="#t2">Зовнішній вигляд макету</a></li>
+		<li><a href="#t3">HTML - код макету</a></li>
+		<button onclick="myFunction()" class="dropbtn">Макет веб-сторінки</button>
 		<div id="myDropdown" class="dropdown-content">
-			<a href="#tab">HTML-код таблиці</a>
-			<a href="#form">HTML-код форми</a>
-			<a href="#img">HTML-код зображення</a>
-			<a href="#a">HTML-код посилання</a>
+			<a href="#sel">Розмітка сторінки за допомогою таблиці</a>
+			<a href="#othSel">Розмітка сторінки за допомогою плаваючих блоків</a>
 		</div>
 	</ul>
 </nav>
@@ -72,63 +70,47 @@ window.onclick = function(event) {
 </div>
 <section>
 <div id ="t1">
-	<font size = "4" > <span class = "highlight">Опис предметної області:</span> Сайт - це інтернет-медія ресурс для КПІшника, аби бути завжди у центрі подій. На головній сотрінці користувач матиме змогу дивитися список статтей, здійснювати пошук необхідної новини за словом. Розподіл новин відбуватиметься за декількома (культура, знання, стиль, їжа, новини і т.д.) розділами, які видно на будь-якій сторінці. У шапці сайту знаходитиметься кнопка по якій відкриватиметься форма для реєстрації або авторизації. У підвалі сайту знаходитимуться посилання на загальну інформацію (про сайт,контакти,замовити рекламу і т.д.) та форма для підписання на розсилку новин. Зареєстрований користувач може переглядати статті як і незареєстрований користувач, але тільки зареєстрований має змогу залишати коментарі. Кожна стаття у списку відображатиметься у формі блоку з картинкою, назваю та декількома реченнями. Також кожен зареєстрований користувач зможе перейти на свій профіль для перегляду своїх коментарів.</font> 
+		<h1>Постановка задачі  лабораторної роботи №3 </h1>
+		<font size ="4">Придбати практичні навички роботи  верстки сторінок засобами CSS, верстки на основі плаваючих елементів, з’ясувати переваги та недоліки типів макетів веб-сторінок.</font><br>
+		<font size ="4" >Середовище розробки: Notepad++ </font><br>
+		<br>
+	</div>
+	<div id ="t2">
+	<h1>Списки</h1>
+	<img src ="l_img.png" width ="640" > 
+	<img src ="res_l.png" width ="340" height = "380"> 
+	</div>
 	<br>
-	<br>
-	<br>
-</div>
-<div id ="t2">
-<font size = "5" > <span class = "highlight">Загальна постановка  задачі програми</span></font>
-<br><br>
-<font size = "4" > <span class = "highlight">Предметна область:</span> інформаційний ресурс для відображення культурного життя КПІшника.</font>
-	<br>
-	<font size = "4" > <span class = "highlight">Об'єкти взаємодії:</span> користувач, зареєстрований користувач, редактор.</font> 
-	<br>
-	<h2 >Сайт має відповідати наступним функціональним вимогам:</h2>
-	<ul>
-		<li > <font size ="4">сайт повинен надавати можливість як незареєстрованому, так і зареєстрованому користувачеві переглядати новини будь-якого розділу, підписатися на розсилку новин та замовити рекламу;</font></li>  
-		<li><font size ="4"> сайт повинен надавати можливість зареєструватися або авторизуватия користувачеві;</font></li>
-		<li> <font size ="4">сайт повинен надавати можливість пошуку новини за назвою користувачеві;</font></li>
-		<li> <font size ="4">зараєстрований користувач повинен мати можливість коментувати статті;</font></li>
-		<li> <font size ="4">редактор повинен мати усі можливості, що є у користувачів, а також він повинен мати можливість додавати статтю (тобто створювати назву, ім’я автора та текст), змінювати інформацію про неї та видаляти її.</font></li>
-	</ul>
-	<br>
-	<h2 >Сайт має відповідати наступним нефункціональним вимогам:</h2>
-	<ul>
-		<li> <font size ="4">сайт повинен мати відкриту архітектуру;</font></li>
-		<li> <font size ="4">система повинна мати веб-інтерфейс;</font></li>
-		<li> <font size ="4"> інтерфейс користувача має бути зручним та інтуїтивно-зрозумілим.</font></li>
-	</ul>
-	<br>
-	<img src="use-case.png" alt="" height = "650">
-	<br>
-</div>
-<br>
-<div id ="t3">
-<h1>Постановка задачі  лабораторної роботи №1 </h1>
-<font size ="4">Придбати практичні навички роботи  з html-документом, таблицями,формами, зображеннями, посиланнями.</font><br>
-<br>
-</div>
-<div id ="tab">
-<h1>HTML-код таблиці</h1>
-<img src ="tab_img.jpg" width ="640" > 
-<img src ="res_tab.jpg" width ="640"> 
-</div>
-<div id ="form">
-<h1>HTML-код форми</h1>
-<img src ="form_img.jpg" width ="640" > 
-<img src ="res_form.jpg" width ="640"> 
-</div>
-<div id ="img">
-<h1>HTML-код зображення</h1>
-<img src ="img_img.jpg" width ="640" > 
-<img src ="res_img.jpg" width ="640"> 
-</div>
-<div id ="a">
-<h1>HTML-код посилання</h1>
-<img src ="a_img.jpg" width ="640" > 
-<img src ="res_a.jpg" width ="440" height="290"> 
-</div>
+	<div id ="t3">
+	<h1>Iдентифікатори</h1>
+	<img src ="l_img.png" width ="640" > 
+	<img src ="i_img.png" width ="640"> 
+	</div>
+	<div id ="t4">
+	<h1>Відступи</h1>
+	<img src ="v_img.png" width ="460" > 
+	<img src ="res_v.png" width ="460"> 
+	</div>
+	<div id ="t5">
+	<h1>Плаваючі елементи</h1>
+	<img src ="f.png" width ="540" > 
+	<img src ="r_f.png" width ="540"> 
+	</div>
+	<div id ="sel">
+	<h1>Селектори тегу і класу</h1>
+	<img src ="tag_img.png" width ="470"> 
+	<img src ="res_tag.png" width ="470"> 
+	</div>
+	<div id ="othSel">
+	<h1>Інші селектори</h1>
+	<img src ="oth_img.png" width ="540" > 
+	<img src ="res_oth.png" width ="540"> 
+	</div>
+	<div id ="Gsel">
+	<h1>Групування селекторів</h1>
+	<img src ="g.png" width ="340" > 
+	<img src ="v.png" width ="580"> 
+	</div>
 </section>
 </body>
 </html>
