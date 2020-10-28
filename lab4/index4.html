@@ -1,4 +1,4 @@
-<!doctype html>
+<<!doctype html>
 <html>
 <head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
@@ -19,31 +19,33 @@
   <div id="heading">
   <nav>
 	<ul class="top-menu">
-		<li class="active">Лабораторна №1</li>
-		<li><a href="lab2/index2.html">Лабораторна №2</a></li>
-		<li><a href="/services/">Лабораторна №3</a></li>
-		<li><a href="/partners/">Лабораторна №4</a></li>
-		<li><a href="/customers/">Лабораторна №5</a></li>
-		<li><a href="/projects/">Лабораторна №6</a></li>
-		<li><a href="/careers/">Лабораторна №7</a></li>
-		<li><a href="/contact/">Лабораторна №8</a></li>
-		<li><a href="/contact/">Лабораторна №9</a></li>
+		<li><a href="../index.html">Лабораторна №1</a></li>
+		<li><a href="C:\Users\Karine\Documents\Web_doc\lab2\index2.html">Лабораторна №2</a></li>
+		<li><a href="C:\Users\Karine\Documents\Web_doc\lab3\index3.html">Лабораторна №3</a></li>
+		<li class="active">Лабораторна №4</li>
+		<li><a href="C:\Users\Karine\Documents\Web_doc\lab5\index5.html">Лабораторна №5</a></li>
+		<li><a href="C:\Users\Karine\Documents\Web_doc\lab6\index6.html">Лабораторна №6</a></li>
+		<li><a href="C:\Users\Karine\Documents\Web_doc\lab7\index7.html">Лабораторна №7</a></li>
+		<li><a href="C:\Users\Karine\Documents\Web_doc\lab8\index8.html">Лабораторна №8</a></li>
+		<li><a href="C:\Users\Karine\Documents\Web_doc\lab9\index9.html">Лабораторна №9</a></li>
 	</ul>
   </nav>
   </div>
 <aside>
 <nav>
 	<ul class="aside-menu">
-		<li class="#t1">Опис предметного середовища</li>
-		<li><a href="#t2">Загальна постановка  задачі програми </a></li>
-		<li><a href="#t3">Постановка задачі <br> лабораторної роботи №1</a></li>
-		<button onclick="myFunction()" class="dropbtn">Cтруктура документа</button>
+		<li> <a href="#t1">Постановка задачі <br> лабораторної роботи №4</a></li>
+		<button onclick="myFunction()" class="dropbtn">Застосування JavaScript</button>
 		<div id="myDropdown" class="dropdown-content">
-			<a href="#tab">HTML-код таблиці</a>
-			<a href="#form">HTML-код форми</a>
-			<a href="#img">HTML-код зображення</a>
-			<a href="#a">HTML-код посилання</a>
-		</div>
+			<a href="#url">Сxeма URL</a>
+			<a href="#2">Обробник подій</a>
+			<a href="#3">Підстановка</a>
+			<a href="#4">Вставка</a>
+		</div><br>
+		<li><a href="#t2">Масиви</a></li>
+		<li><a href="#t3">Виконання 6-го завдання</a></li>
+		<li><a href="#t4">Висновки</a></li>
+		
 	</ul>
 </nav>
 <script>
@@ -52,7 +54,6 @@ toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
-
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
@@ -71,66 +72,58 @@ window.onclick = function(event) {
 </aside>
 </div>
 <section>
-<div id ="t1">
-	<font size = "4" > <span class = "highlight">Опис предметної області:</span> Сайт - це інтернет-медія ресурс для КПІшника, аби бути завжди у центрі подій. На головній сотрінці користувач матиме змогу дивитися список статтей, здійснювати пошук необхідної новини за словом. Розподіл новин відбуватиметься за декількома (культура, знання, стиль, їжа, новини і т.д.) розділами, які видно на будь-якій сторінці. У шапці сайту знаходитиметься кнопка по якій відкриватиметься форма для реєстрації або авторизації. У підвалі сайту знаходитимуться посилання на загальну інформацію (про сайт,контакти,замовити рекламу і т.д.) та форма для підписання на розсилку новин. Зареєстрований користувач може переглядати статті як і незареєстрований користувач, але тільки зареєстрований має змогу залишати коментарі. Кожна стаття у списку відображатиметься у формі блоку з картинкою, назваю та декількома реченнями. Також кожен зареєстрований користувач зможе перейти на свій профіль для перегляду своїх коментарів.</font> 
+	<div id ="t1">
+		<h1>Постановка задачі  лабораторної роботи №4 </h1>
+		<font size ="4">Придбати практичні навички роботи маніпулювання інформаційним вмістом Web-документа засобами мови JavasSript, використання об’єктів,масивів, функцій, подій, обробників подій у сценаріях на мові JavasSript </font><br>
+		<font size ="4" >Середовище розробки: Notepad++ </font><br>
+		<br>
+	</div>
+	<div id ="url">
+	<h1>Сxea URL</h1>
+	<font size ="4">Файл main page(2).html </font><br>
+	<img src ="url.png" width ="570" height = "70"> 
+	<img src ="url_res.png" width ="570"> 
+	</div>
+	<div id ="2">
+	<h1>Обробник подій</h1>
+	<font size ="4">Файл main page(2).html </font><br>
+	<img src ="onmous.png" width ="570" > <br>
+	<img src ="onmous_r1.png" width ="280"> 
+	<img src ="onmous_r2.png" width ="280">
+	</div>
+	<div id ="3">
+	<h1>Підстановка</h1>
+	<font size ="4">Файл main page(2).html </font><br>
+	<img src ="ent.png" width ="580" > 
+	<img src ="ent_r.png" width ="540"> 
+	</div>
+	<div id ="4">
+	<h1>Вставка</h1>
+	<font size ="4">Файл main page(2).html </font><br>
+	<img src ="paste.png" width ="580" > 
+	<img src ="paste_r.png" width ="340"> 
+	</div>
+	<div id ="t2">
+	<h1>Масиви</h1>
+	<font size ="4">Файл java(arrays).html </font><br>
+	<img src ="arr_cod1.png" width ="640" > 
+	<img src ="arr_cod2.png" width ="640"> 
+	<img src ="arr_res.png" width ="640"> 
+	</div>
 	<br>
-	<br>
-	<br>
-</div>
-<div id ="t2">
-<font size = "5" > <span class = "highlight">Загальна постановка  задачі програми</span></font>
-<br><br>
-<font size = "4" > <span class = "highlight">Предметна область:</span> інформаційний ресурс для відображення культурного життя КПІшника.</font>
-	<br>
-	<font size = "4" > <span class = "highlight">Об'єкти взаємодії:</span> користувач, зареєстрований користувач, редактор.</font> 
-	<br>
-	<h2 >Сайт має відповідати наступним функціональним вимогам:</h2>
-	<ul>
-		<li > <font size ="4">сайт повинен надавати можливість як незареєстрованому, так і зареєстрованому користувачеві переглядати новини будь-якого розділу, підписатися на розсилку новин та замовити рекламу;</font></li>  
-		<li><font size ="4"> сайт повинен надавати можливість зареєструватися або авторизуватия користувачеві;</font></li>
-		<li> <font size ="4">сайт повинен надавати можливість пошуку новини за назвою користувачеві;</font></li>
-		<li> <font size ="4">зараєстрований користувач повинен мати можливість коментувати статті;</font></li>
-		<li> <font size ="4">редактор повинен мати усі можливості, що є у користувачів, а також він повинен мати можливість додавати статтю (тобто створювати назву, ім’я автора та текст), змінювати інформацію про неї та видаляти її.</font></li>
-	</ul>
-	<br>
-	<h2 >Сайт має відповідати наступним нефункціональним вимогам:</h2>
-	<ul>
-		<li> <font size ="4">сайт повинен мати відкриту архітектуру;</font></li>
-		<li> <font size ="4">система повинна мати веб-інтерфейс;</font></li>
-		<li> <font size ="4"> інтерфейс користувача має бути зручним та інтуїтивно-зрозумілим.</font></li>
-	</ul>
-	<br>
-	<img src="use-case.png" alt="" height = "650">
-	<br>
-</div>
-<br>
-<div id ="t3">
-<h1>Постановка задачі  лабораторної роботи №1 </h1>
-<font size ="4">Придбати практичні навички роботи  з html-документом, таблицями,формами, зображеннями, посиланнями.</font><br>
-<br>
-</div>
-<div id ="tab">
-<h1>HTML-код таблиці</h1>
-<img src ="tab_img.jpg" width ="640" > 
-<img src ="res_tab.jpg" width ="640"> 
-</div>
-<div id ="form">
-<h1>HTML-код форми</h1>
-<img src ="form_img.jpg" width ="640" > 
-<img src ="res_form.jpg" width ="640"> 
-</div>
-<div id ="img">
-<h1>HTML-код зображення</h1>
-<img src ="img_img.jpg" width ="640" > 
-<img src ="res_img.jpg" width ="640"> 
-</div>
-<div id ="a">
-<h1>HTML-код посилання</h1>
-<img src ="a_img.jpg" width ="640" > 
-<img src ="res_a.jpg" width ="440" height="290"> 
-</div>
+	<div id ="t3">
+	<h1>Виконання 6-го завдання</h1><br>
+	<font size ="4">Завдання зробити текстовий редактор, в якому можна змінювати жирність, нахил, підкреслення, колір, регістр слів на мові JavasSript </font><br>
+	<font size ="4">Файли editor.html та edit.js </font><br>
+	<img src ="edit.png" width ="840" > 
+	<img src ="ed.png" width ="840" >
+	<img src ="edit_r.png" width ="840"> 
+	</div><br>
+	<div id ="t4">
+	<h1>Висновки</h1>
+	<font size ="4"> Ми ознайомилися з мовою JavasSript. Дізналися про класи, об'єкти та функції в js. Придбали практичні навички роботи маніпулювання інформаційним вмістом Web-документа за допомогою використання об’єктів,масивів, функцій, подій, обробників подій у сценаріях на мові JavasSript. Нашому сайті ми за допогою js надали динамічності.
+	Тепер на головній сторінці при натисканні на розділи в розробці з'являється повідомлення, що вони не доступні,змінюється час при оновленні сторінки. Назва у шапці сайт змінює колір через певний проміжок часу. Також додано розділ, в якому наявний текстовий редактор для статтей. На окремій сторінці ми воконали завдання с масивами.</font><br>
+	</div>
 </section>
 </body>
 </html>
-
-

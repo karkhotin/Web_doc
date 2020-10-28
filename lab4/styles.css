@@ -47,6 +47,7 @@ header {
 #heading{
 	padding: 10px 0;
 }
+
 nav a {
 	text-decoration: none;
 }
@@ -123,13 +124,14 @@ nav li {
 aside {
 	float: left;
 	width: 250px;
-	height: 3350px;
+	height: 5350px;
 }
 section {
 	margin-left: 280px;
 	padding-bottom: 50px;
 	max-width: 1050px;
 }
+.aside-menu {position: fixed;}
 .aside-menu li {
 	font-weight: 300;
 	list-style-type: square;
